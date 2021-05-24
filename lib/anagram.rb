@@ -11,7 +11,7 @@ class Anagram
     @word.chars.sort.join
     array.each do |word|
       sorted_letters = word.chars.sort.join
-      if sorted_letters = @word
+      if sorted_letters == @word
         matches << word
       end
     end
