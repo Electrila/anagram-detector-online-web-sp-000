@@ -8,8 +8,11 @@ class Anagram
   
   def match(array)
     matches = []
-    words = array.split(", ")
-    word_letters = words.split
+    @word.sorted!
+    words.each do |word|
+      sorted_letters = word.split("").sort.join
+      if sorted_letters
+    
   end
 
 
