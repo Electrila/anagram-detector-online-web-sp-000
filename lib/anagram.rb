@@ -18,5 +18,4 @@ class Anagram
     matches
   end
 
-
 end
