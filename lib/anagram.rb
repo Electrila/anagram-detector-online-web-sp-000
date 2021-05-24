@@ -11,8 +11,10 @@ class Anagram
     @word.sorted!
     words.each do |word|
       sorted_letters = word.split("").sort.join
-      if sorted_letters
-    
+      if sorted_letters = @word
+        matches << word
+      end
+    end
   end
 
 
