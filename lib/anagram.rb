@@ -8,9 +8,9 @@ class Anagram
   
   def match(array)
     matches = []
-    @word.sort!
+    @word.chars.sort.join
     words.each do |word|
-      sorted_letters = word.split("").sort.join
+      sorted_letters = word.chars.sort.join
       if sorted_letters = @word
         matches << word
       end
