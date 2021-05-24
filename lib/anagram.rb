@@ -8,7 +8,8 @@ class Anagram
   
   def match(array)
     matches = []
-    
+    words = array.split(", ")
+    word_letters = words.split
   end
 
 
